@@ -2,7 +2,7 @@ import { View, Text, Image } from 'react-native';
 
 import styles from './styles';
 
-import Ola from './ola';
+import Ola from './ola/olaIndex';
 
 import logo from 'D:/TEMP/matheusmota/mobile/aula_expo/assets/002-1-react-native.png';
 
@@ -22,12 +22,11 @@ export default function Atividade1 () {
                 Atividade 1
             </Text>
         
-            <Saudacoes name='Mario'/>
-            <Saudacoes name='Maria'/>
-            <Saudacoes name='Bruna'/>
-            <Saudacoes name='Bruno'/>
-
-
+            {/* <Ola nomePessoa={'Givanildo'}/>
+            <Ola nomePessoa={'Gracinda'}/> */}
+            <Ola>Jivaldo</Ola>
+            <Ola>Jacinto</Ola>
+            
         </View>
     );
 }
