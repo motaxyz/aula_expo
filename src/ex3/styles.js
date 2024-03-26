@@ -17,13 +17,14 @@ const styles = StyleSheet.create({
         width: '70%',
         padding: 10,
         margin: 20,
-        backgroundColor: 'grey',
+        backgroundColor: 'black',
         justifyContent: 'center',
         alignItems: 'center',
         borderRadius: 20,
     },
     txtBotao: {
         fontSize: 25,
+        color: 'white',
     },
 });
 
