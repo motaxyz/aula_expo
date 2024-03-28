@@ -8,6 +8,8 @@ const styles = StyleSheet.create({
         borderRadius: 20,
         alignItems: 'center',
         padding: 20,
+        borderWidth: 2,
+        borderColor: 'black'
     },
 
     mostrarnumero: {
@@ -16,6 +18,9 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         backgroundColor: 'grey',
         width: '300px',
+        borderRadius: 5,
+        borderWidth: 1,
+        borderColor: 'black'
     },
 
     titulo: {
@@ -41,6 +46,7 @@ const styles = StyleSheet.create({
     txtBotao: {
         fontSize: 25,
         color: 'white',
+        fontWeight: 'bold',
     },
 
     botao: {
@@ -81,6 +87,8 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         backgroundColor: '#909090',
         padding: 5,
+        borderWidth: 2,
+        borderColor: 'black'
     },
 
     operacao: {
