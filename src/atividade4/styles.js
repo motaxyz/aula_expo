@@ -9,7 +9,7 @@ const styles = StyleSheet.create ({
         padding: 8,
     },
     titulo: {
-        fontSize: 30,
+        fontSize: 35,
         fontWeight: 'bold',
         color: '#b71c1c',
         margin: 20,
@@ -21,6 +21,18 @@ const styles = StyleSheet.create ({
         marginVertical: 10,
         padding: 5,
         color: '#b71c1c',
+        fontWeight: 'bold',
+        marginBottom: 35,
+    },
+
+    titleinput: {
+        fontSize: 20,
+        marginVertical: 10,
+        padding: 5,
+        color: '#b71c1c',
+        fontWeight: 'bold',
+        width: '80%',
+        marginBottom: 0,
     },
 
     input: {
@@ -32,6 +44,7 @@ const styles = StyleSheet.create ({
         borderRadius: 20,
         padding: 5,
         borderColor: '#b71c1c',
+        color: '#b71c1c'
     },
     linha: {
         borderBottomWidth: 3,
@@ -48,14 +61,17 @@ const styles = StyleSheet.create ({
         marginVertical: 20,
     },
     botaoPress: {
-        backgroundColor: '#fff'
+        backgroundColor: '#fff',
     },
+
     txtBotao: {
         color: '#ffcdd2',
         fontSize: 20,
     },
+    
     txtBotaoPress: {
-        color: '#b71c1c'
+        color: '#b71c1c',
+        
     },
 })
 
