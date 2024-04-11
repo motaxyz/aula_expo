@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-import { View, Touchable, Text, TextInput } from 'react-native';
+import { View, Pressable, Text, TextInput } from 'react-native';
 
 import styles from './styles';
 
@@ -25,7 +25,7 @@ export default function Exemplo5 () {
     }
 
     return (
-
+    
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo 5</Text>
 
@@ -49,9 +49,15 @@ export default function Exemplo5 () {
             onBlur={() => setIsFocusN1(false)}
             onChangeText={(num1) => setN1(num1)}
             value={n1}
+            // keyboardType='numeric'
 
+        />
 
-        /*<TextInput
+        <Text style={styles.txtSaida}> + </Text>
+
+        <Text style={styles.textLabel}> 2º número </Text>
+
+        <TextInput
             style={
                 [
                     styles.txtEntrada,
@@ -69,8 +75,43 @@ export default function Exemplo5 () {
             onChangeText={(num2) => setN2(num2)}
             value={n2}
         />
-    );
+    
 
     <Text style={[styles.txtSaida, {margin: 0}]}> = </Text>
 
-    <Text style={styles.textLabel}>Total</Text>
+    <Text style={styles.textLabel}> Total </Text>
+
+    <TextInput
+        style={
+            [
+                styles.txtEntraa,
+                    isFocusTotal ?
+                        {
+                            borderColor: '#c51162',
+                            outline: 'none',
+                        }
+                    :
+                        {}
+            ]
+        }        
+        onFocus={() => setIsFocusTotal(true)}
+        onBlur={() => setIsFocusTotal(false)}
+        editable={false}
+        value={total ? parseFloat(total).toFixed(2) : ''}
+    />
+
+    <Pressable
+        onPress={() => soma()}
+        style={
+            ({pressed}) => pressed ?
+                [styles.button, styles.buttonTouch]
+            :
+                styles.button
+            }
+        >
+            <Text style={styles.textButton}> + </Text>
+            </Pressable>
+
+            </View>
+        );
+    
