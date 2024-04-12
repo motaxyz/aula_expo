@@ -12,7 +12,7 @@ import Exemplo5 from './src/ex5';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade4 />
+      <Exemplo5 />
       <StatusBar style="auto" />
     </View>
   );

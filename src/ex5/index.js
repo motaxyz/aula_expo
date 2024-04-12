@@ -6,18 +6,14 @@ import styles from './styles';
 
 
 export default function Exemplo5 () {
-    return (
-        <View>
-            <Text>Exemplo 5</Text>
-        </View>
-    )
-}
+  
+
 
     const [isFocusN1, setIsFocusN1] = useState(false);
     const [isFocusN2, setIsFocusN2] = useState(false);
     const [isFocusTotal, setIsFocusTotal] = useState(false);
-    const [n1, setN1] = useState(false);
-    const [n2, setN2] = useState(false);
+    const [n1, setN1] = useState(0);
+    const [n2, setN2] = useState(0);
     const [total, setTotal] = useState('');
 
     function soma() {
@@ -84,7 +80,7 @@ export default function Exemplo5 () {
     <TextInput
         style={
             [
-                styles.txtEntraa,
+                styles.txtEntrada,
                     isFocusTotal ?
                         {
                             borderColor: '#c51162',
@@ -113,5 +109,6 @@ export default function Exemplo5 () {
             </Pressable>
 
             </View>
-        );
+        );   
+    }
     
