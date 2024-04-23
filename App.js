@@ -22,9 +22,9 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#b71c1c',
+    backgroundColor: '#c51162',
     alignItems: 'center',
     justifyContent: 'center',
-    padding: 15,
+    padding: 25,
   },
 });
