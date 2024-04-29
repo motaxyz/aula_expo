@@ -6,8 +6,10 @@ const styles=StyleSheet.create({
         textAlign: 'center',
         width: '50%',
         fontSize: 50,
-        //marginTop: 24,
-        color: 'lightgrey',
+        borderRadius: 20,
+        color: '#eee',
+        backgroundColor: '#aaa',
+        margin: 5,
     },
 });
 

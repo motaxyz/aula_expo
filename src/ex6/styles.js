@@ -14,7 +14,10 @@ const styles = StyleSheet.create({
         fontSize: 30,
         fontWeight: 'bold',
         color: '#aaa',
-        
+    },
+    ladoalado: {
+        flexDirection: 'row',
+        marginVertical: 30,
     }
 });
 
