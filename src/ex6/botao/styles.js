@@ -3,8 +3,8 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
     botao: {
         width: '100%',
-        backgroundColor: 'grey',
-        // backgroundColor: '#6dc4a4',
+        // backgroundColor: 'grey',
+        backgroundColor: '#89ffa5',
         margin: 10,
         borderRadius: 20,
     },
@@ -17,7 +17,6 @@ const styles = StyleSheet.create({
     },
     btnPress: {
         borderWidth: 4,
-        
         borderColor: '#6dc4a4'
     }
     
